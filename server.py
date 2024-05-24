@@ -14,6 +14,8 @@ class RequestHandler(BaseHTTPRequestHandler):
             output = process.stdout.strip()
 
             filtered_output = output.split('Enter the value of n:')[-1].strip()
+            # Remove asterisks from the expansion output
+            filtered_output = filtered_output.replace('*', '')
             self.send_response(200)
             self.send_header('Content-type', 'text/plain')
             self.end_headers()
