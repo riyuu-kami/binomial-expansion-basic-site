@@ -11,7 +11,7 @@ git clone https://github.com/riyuu-kami/binomial-expansion-basic-site.git
 gcc -o expansion expansion.cpp
 ```
 
-#### this creates a compiled form of the cpp file, make sure it's in the site folder and delete expansion.cpp since it's no longer necessary
+### this creates a compiled form of the cpp file, make sure it's in the site folder and delete expansion.cpp since it's no longer necessary
 
 
 - in the same terminal, run
