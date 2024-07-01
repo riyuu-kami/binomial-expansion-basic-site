@@ -1,18 +1,19 @@
 ## simple site for my binomial-expansion repository.
 
 
-- run the following commands
+- run the following command in your terminal
 ```ruby
 git clone https://github.com/riyuu-kami/binomial-expansion-basic-site.git
 ```
-- make sure you're in the site folder and run
+- navigate to the site folder in cmd, or just open it in file explorer, hit ctrl + L and type cmd and run
+
 ```ruby
 gcc -o expansion expansion.cpp
 ```
 
 #### this creates a compiled form of the cpp file, make sure it's in the site folder and delete expansion.cpp since it's no longer necessary
 
-- navigate to the site folder in cmd, or just open it in file explorer, hit ctrl + L and type cmd and run
+in the same terminal, run
 ```ruby
 python3 server.py
 ```
