@@ -5,7 +5,7 @@
 ```ruby
 git clone https://github.com/riyuu-kami/binomial-expansion-basic-site.git
 ```
-- navigate to the site folder in cmd, or just open it in file explorer, hit ctrl + L and type cmd and run
+- navigate to the site folder in cmd, or just open it in file explorer, hit ctrl + L and type cmd and run the following command
 
 ```ruby
 gcc -o expansion expansion.cpp
